@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yun.settings"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/settingsicon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar"
+         >
+        <activity
+            android:name="com.yun.settings.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.yun.settings.normalsettings"></activity>
+        <activity android:name="com.yun.settings.allsettings"></activity>
+        <activity android:name="com.yun.settings.yunsettings"></activity>
+    </application>
+
+</manifest>

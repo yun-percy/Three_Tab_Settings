@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	<PreferenceScreen 
+	       android:title="WIFI设置3"  >
+        <intent 
+            android:targetPackage="com.android.settings" 
+            android:action="android.intent.action.MAIN" 
+            android:targetClass="com.android.settings.wifi.WifiSettings" />
+    	</PreferenceScreen>
+    	<PreferenceScreen 
+	       android:title="GPRS数据设置3"  >
+        <intent 
+            android:targetPackage="com.android.phone" 
+            android:action="android.intent.action.MAIN" 
+            android:targetClass="com.android.phone.MobileNetworkSettings" />
+    	</PreferenceScreen>
+    	<PreferenceScreen 
+	       android:title="蓝牙设置3"  >
+        <intent 
+            android:targetPackage="com.android.settings" 
+            android:action="android.intent.action.MAIN" 
+            android:targetClass="com.android.settings.bluetooth.BluetoothSettings" />
+    	</PreferenceScreen>
+</PreferenceScreen>

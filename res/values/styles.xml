@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Yun.TextView" parent="@android:style/Theme.Holo.NoActionBar">
+            <item name="android:shadowColor">#000000</item>
+            <item name="android:shadowDx">2</item>
+            <item name="android:shadowDy">2</item>
+            <item name="android:shadowRadius">2</item>
+        </style>
+
+</resources>
